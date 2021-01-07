@@ -19,6 +19,8 @@ tla:
             id-pattern: ^-?[1-9][0-9]*$
         aegyptiaca:
             default-format: https://aegyptiaca.uni-muenster.de/Record/{id}
+        dwl:
+            default-format: https://www.dwl.aegyptologie.lmu.de/suche.php?nummer={id}
         dza:
             type-formats:
                 hieratic_hieroglyphic: http://aaew.bbaw.de/tla/servlet/DzaBrowser?u=guest&f=0&l=0&wn={id}
